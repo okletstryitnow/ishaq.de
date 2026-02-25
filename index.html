@@ -30,6 +30,7 @@
       color: var(--fg);
       font-family: var(--mono);
       min-height: 100vh;
+      min-height: 100dvh;
       overflow: hidden;
       cursor: none;
     }
@@ -135,7 +136,8 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
-      padding: 2rem;
+      height: 100dvh;
+      padding: 2rem 2rem 6rem;
       gap: 0;
     }
 
@@ -408,15 +410,18 @@
       .cursor, .cursor-trail { display: none; }
       body { cursor: auto; }
       .ascii-art { font-size: 0.55rem; }
-      .time { top: auto; bottom: 5rem; right: 50%; transform: translateX(50%); text-align: center; }
+      .time { top: 1.5rem; right: 1.5rem; }
       .mark { top: 1.5rem; left: 1.5rem; }
       .bottom { bottom: 1.5rem; gap: 1.5rem; }
-      .divider { height: 32px; }
+      .content { padding: 2rem 1.5rem 5rem; }
+      .ascii-wrap { margin-bottom: 2vh; }
+      .divider { height: 28px; }
+      .tagline { margin-bottom: 2vh; }
     }
 
     @media (max-width: 480px) {
-      .content { gap: 1rem; }
       .cta { padding: 0.75rem 1.2rem; font-size: 0.7rem; }
+      .name { margin-bottom: 0.5vh; }
     }
 
     /* ── Reduced motion ── */
