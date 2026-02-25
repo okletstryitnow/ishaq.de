@@ -1,5 +1,3 @@
-# ishaq.de
-
 <div align="center">
 
 ```
@@ -10,7 +8,7 @@
    ░▒▓█▓▒░    ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓███████▓▒░
 ```
 
-**1-file portfolio — zero dependencies, zero frameworks.**
+**Single-file portfolio — zero dependencies, zero frameworks.**
 
 ---
 
