@@ -10,7 +10,7 @@
    ░▒▓█▓▒░    ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓███████▓▒░
 ```
 
-**Single-file portfolio — zero dependencies, zero frameworks.**
+**1-file portfolio — zero dependencies, zero frameworks.**
 
 ---
 
